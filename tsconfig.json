@@ -1,0 +1,16 @@
+{
+	"extends": "@tsconfig/react-native/tsconfig.json",
+	"compilerOptions": {
+		"useDefineForClassFields": true,
+		"noImplicitThis": true,
+		"noImplicitAny": true,
+		"strictNullChecks": true,
+		"noFallthroughCasesInSwitch": true,
+		"baseUrl": "./",
+		"types": ["./@types", "@types/styled-components-react-native"],
+		"paths": {
+			"@/*": ["./src/*"]
+		}
+	},
+	"include": ["App.tsx", "./src"]
+}

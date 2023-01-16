@@ -1,0 +1,6 @@
+export * from '@/components/Header'
+export * from '@/components/Profile'
+export * from '@/components/Margin'
+export * from '@/components/Division'
+export * from '@/components/FriendSection'
+export * from '@/components/TabBar'
